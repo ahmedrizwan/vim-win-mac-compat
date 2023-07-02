@@ -1,5 +1,5 @@
 # vim-win-mac-compat
-<h2 align="center"><img src="https://raw.githubusercontent.com/ahmedrizwan/vim-win-mac-compat/main/images/logo.png" height="128"><br>Vim Win/Mac Compat</h2>
+<h2 align="center"><img src="https://raw.githubusercontent.com/ahmedrizwan/vim-win-mac-compat/main/images/extension-logo.png" height="128"><br>Vim Win/Mac Compat</h2>
 <p align="center"><strong>Consistent VS Code (`vscodevim`) bindings for Windows & Mac </strong></p>
 
 
