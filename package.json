@@ -2,7 +2,7 @@
   "name": "vim-win-mac-compat",
   "displayName": "Vim Win/Mac Compat",
   "description": "Consistent VS Code (vscodevim) bindings for Windows & Mac.",
-  "icon": "images/logo.png",
+  "icon": "images/extension-logo.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.79.0"
