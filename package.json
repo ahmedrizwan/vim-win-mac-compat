@@ -5,7 +5,7 @@
   "icon": "images/extension-logo.png",
   "publisher": "ahmedrizwan",
   "repository": "https://github.com/ahmedrizwan/vim-win-mac-compat",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.79.0"
   },
@@ -72,12 +72,12 @@
         "when": "!editorTextFocus"
       },
       {
-        "key": "ctrl+shift+up",
+        "key": "ctrl+shift+k",
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
       },
       {
-        "key": "ctrl+shift+down",
+        "key": "ctrl+shift+j",
         "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
       },
