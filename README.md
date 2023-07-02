@@ -13,6 +13,7 @@ Pre-req: Make sure you have `vscodevim` installed!
 | `Ctrl-Shift-d` | View Debug |
 | `Ctrl-Shift-x` | View Extensions |
 
+
 ### View Size & Panel
 |Command | Desc |
 |--------|------|
@@ -21,11 +22,13 @@ Pre-req: Make sure you have `vscodevim` installed!
 | `Ctrl-j` | Toggle Panel Visibility |
 | `Ctrl-.` | Maximize Panel |
 
+
 ### Find & Find All
 |Command | Desc |
 |--------|------|
 | `Ctrl-Shift-f` | View Find All |
 | `Ctrl-Shift-/` | View Find |
+
 
 ### Moving Around
 |Command | Desc |
@@ -36,6 +39,7 @@ Pre-req: Make sure you have `vscodevim` installed!
 | `Ctrl-w k` | Move focus to Editor  |
 | `Ctrl-w q` | Close View  |
 
+
 ### Terminal
 |Command | Desc |
 |--------|------|
@@ -44,6 +48,7 @@ Pre-req: Make sure you have `vscodevim` installed!
 | `Ctrl-Shift-j` | Focus Next Terminal  |
 | `Ctrl-Shift-k` | Focus Prev Terminal  |
 | `Ctrl-Shift-q` | Close Terminal  |
+
 
 ### Misc
 |Command | Desc |
@@ -55,8 +60,10 @@ Pre-req: Make sure you have `vscodevim` installed!
 | `Ctrl-Shift-]` | Unfold block  |
 | `Ctrl-c` | Copy block + command mode  |
 
+
 ## Why?
 If you switch between Windows & Mac frequently, and use Vim in VS Code (like me), these bindings are helpful.
 Since Mac has 4 modifier keys and Windows has 3 - it is tricky to bring consistency. Using Windows as the baseline, I've created this key-mapping.
+
 
 **Enjoy!**
