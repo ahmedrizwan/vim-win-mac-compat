@@ -1,0 +1,201 @@
+{
+  "name": "vim-win-mac-compat",
+  "displayName": "Vim Win/Mac Compat",
+  "description": "Consistent VS Code (Vim) bindings for Windows & Mac.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Keymaps"
+  ],
+  "contributes": {
+    "keybindings": [
+      {
+        "key": "ctrl+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+      },
+      {
+        "key": "ctrl+b",
+        "command": "-cursorLeft",
+        "when": "textInputFocus"
+      },
+      {
+        "key": "ctrl+b",
+        "command": "-extension.vim_ctrl+b",
+        "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+      },
+      {
+        "key": "ctrl+j",
+        "command": "workbench.action.togglePanel"
+      },
+      {
+        "key": "ctrl+j",
+        "command": "-editor.action.joinLines",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+j",
+        "command": "-extension.vim_ctrl+j",
+        "when": "editorTextFocus && vim.active && vim.use<C-j> && !inDebugRepl"
+      },
+      {
+        "key": "ctrl+w",
+        "command": "extension.vim_ctrl+w",
+        "when": "!filesExplorerFocus"
+      },
+      {
+        "key": "ctrl+w l",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "sideBarFocus"
+      },
+      {
+        "key": "ctrl+w",
+        "command": "-workbench.action.switchWindow"
+      },
+      {
+        "key": "ctrl+w",
+        "command": "-extension.vim_ctrl+w",
+        "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
+      },
+      {
+        "key": "ctrl+w k",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "panelFocus"
+      },
+      {
+        "key": "ctrl+w q",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "!editorTextFocus"
+      },
+      {
+        "key": "ctrl+shift+up",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+shift+down",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+shift+q",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+shift+n",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpen",
+        "when": "!suggestWidgetVisible"
+      },
+      {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+      },
+      {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+      },
+      {
+        "key": "ctrl+n",
+        "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+      },
+      {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+      },
+      {
+        "key": "ctrl+;",
+        "command": "workbench.action.decreaseViewSize"
+      },
+      {
+        "key": "ctrl+'",
+        "command": "workbench.action.increaseViewSize"
+      },
+      {
+        "key": "ctrl+.",
+        "command": "workbench.action.toggleMaximizedPanel"
+      },
+      {
+        "key": "ctrl+t",
+        "command": "workbench.action.showAllSymbols"
+      },
+      {
+        "key": "ctrl+t",
+        "command": "-editor.action.transposeLetters"
+      },
+      {
+        "key": "ctrl+t",
+        "command": "-extension.vim_ctrl+t",
+        "when": "editorTextFocus && vim.active && vim.use<C-t> && !inDebugRepl"
+      },
+      {
+        "key": "ctrl+shift+[",
+        "command": "editor.fold",
+        "when": "editorTextFocus && vim.active && vim.use<C-t> && !inDebugRepl"
+      },
+      {
+        "key": "ctrl+shift+]",
+        "command": "editor.unfold",
+        "when": "editorTextFocus && vim.active && vim.use<C-t> && !inDebugRepl"
+      },
+      {
+        "key": "ctrl+shift+e",
+        "command": "workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+      },
+      {
+        "key": "ctrl+shift+x",
+        "command": "workbench.view.extensions",
+        "when": "viewContainer.workbench.view.extensions.enabled"
+      },
+      {
+        "key": "ctrl+shift+d",
+        "command": "workbench.view.debug",
+        "when": "viewContainer.workbench.view.debug.enabled"
+      },
+      {
+        "key": "ctrl+shift+f",
+        "command": "workbench.action.findInFiles"
+      },
+      {
+        "key": "ctrl+shift+/",
+        "command": "actions.find",
+        "when": "editorFocus || editorIsOpen"
+      },
+      {
+        "command": "runCommands",
+        "key": "ctrl+c",
+        "args": {
+          "commands": [
+            "editor.action.clipboardCopyAction",
+            "extension.vim_ctrl+c"
+          ]
+        },
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+shift+g",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active"
+      },
+      {
+        "key": "ctrl+shift+g g",
+        "command": "-workbench.view.scm",
+        "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+      },
+      {
+        "key": "ctrl+shift+p",
+        "command": "workbench.action.showCommands"
+      }
+    ]
+  }
+}
