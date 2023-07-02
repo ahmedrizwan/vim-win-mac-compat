@@ -1,6 +1,6 @@
 # vim-win-mac-compat
 
-Consistent VS Code (Vim) bindings for Windows & Mac.
+Consistent VS Code (`vscodevim`) bindings for Windows & Mac. 
 
 ---
 
