@@ -3,6 +3,7 @@
   "displayName": "Vim Win/Mac Compat",
   "description": "Consistent VS Code (vscodevim) bindings for Windows & Mac.",
   "icon": "images/extension-logo.png",
+  "publisher": "ahmedrizwan",
   "repository": "https://github.com/ahmedrizwan/vim-win-mac-compat",
   "version": "0.0.1",
   "engines": {
