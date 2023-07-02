@@ -39,7 +39,7 @@ Pre-req: Make sure you have `vscodevim` installed!
 ### Terminal
 |Command | Desc |
 |--------|------|
-| ``Ctrl-`` | Toggle Terminal  |
+| ``Ctrl-` `` | Toggle Terminal  |
 | `Ctrl-Shift-n` | New Terminal  |
 | `Ctrl-Shift-j` | Focus Next Terminal  |
 | `Ctrl-Shift-k` | Focus Prev Terminal  |
