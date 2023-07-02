@@ -1,7 +1,9 @@
 # vim-win-mac-compat
 <h2 align="center"><img src="https://raw.githubusercontent.com/ahmedrizwan/vim-win-mac-compat/main/images/extension-logo.png" height="128"><br>Vim Win/Mac Compat</h2>
-<p align="center"><strong>Consistent VS Code (`vscodevim`) bindings for Windows & Mac </strong></p>
+<p align="center"><strong>Consistent VS Code (vscodevim) bindings for Windows & Mac </strong></p>
 
+
+Pre-req: Make sure you have `vscodevim` installed! 
 
 ### SideBar
 |Command | Desc |
@@ -37,7 +39,7 @@
 ### Terminal
 |Command | Desc |
 |--------|------|
-| `Ctrl-\`` | Toggle Terminal  |
+| ``Ctrl-`` | Toggle Terminal  |
 | `Ctrl-Shift-n` | New Terminal  |
 | `Ctrl-Shift-j` | Focus Next Terminal  |
 | `Ctrl-Shift-k` | Focus Prev Terminal  |
