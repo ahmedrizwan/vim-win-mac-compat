@@ -179,7 +179,6 @@
         "key": "ctrl+c",
         "args": {
           "commands": [
-            "editor.action.clipboardCopyAction",
             "extension.vim_ctrl+c"
           ]
         },

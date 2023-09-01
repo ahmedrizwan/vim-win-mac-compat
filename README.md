@@ -58,7 +58,6 @@ Pre-req: Make sure you have `vscodevim` installed!
 | `Ctrl-t` | Show all symbols  |
 | `Ctrl-Shift-[` | Fold block  |
 | `Ctrl-Shift-]` | Unfold block  |
-| `Ctrl-c` | Copy block + command mode  |
 
 
 ## Why?
